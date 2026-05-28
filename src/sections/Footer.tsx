@@ -68,7 +68,7 @@ export const Footer: React.FC = () => {
           </div>
 
           <p className="text-center sm:text-right uppercase tracking-wider">
-            Fondation Vallet - Bénin de l&apos;Excellence.
+            Bénin Excellence.
           </p>
         </div>
       </div>
