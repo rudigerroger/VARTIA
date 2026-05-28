@@ -78,7 +78,7 @@ export const HeroSection: React.FC = () => {
               className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-brand-teal/10 border border-brand-teal/30 text-xs font-semibold text-brand-teal mb-6 uppercase tracking-wider"
             >
               <Sparkles className="h-3 w-3" />
-              <span>ISEA 2026 JPO - Portes Ouvertes</span>
+              <span>EEIA 2026 JPO - Portes Ouvertes</span>
             </motion.div>
 
             {/* Main Heading */}
@@ -101,7 +101,7 @@ export const HeroSection: React.FC = () => {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="text-base sm:text-lg text-slate-350 leading-relaxed mb-8 max-w-lg font-sans"
             >
-              Projet réalisé dans le cadre de l&apos;ISEA 2026 pour révolutionner l&apos;expérience de conception vestimentaire grâce à l&apos;IA. Essayez virtuellement vos vêtements traditionnels et modernes avant de coudre.
+              Projet réalisé dans le cadre de l&apos;EEIA 2026 pour révolutionner l&apos;expérience de conception vestimentaire grâce à l&apos;IA. Essayez virtuellement vos vêtements traditionnels et modernes avant de coudre.
             </motion.p>
 
             {/* CTA Buttons */}

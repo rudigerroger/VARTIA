@@ -52,24 +52,6 @@ export const Navbar: React.FC = () => {
           {/* Desktop Call to Actions */}
           <div className="hidden lg:flex items-center gap-4">
             <a
-              href="https://github.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-1.5 text-xs text-slate-300 hover:text-white transition-colors bg-white/5 border border-white/10 px-3 py-1.5 rounded-full hover:bg-white/10"
-            >
-              <User className="h-3.5 w-3.5" />
-              <span>Fondateur Vartia</span>
-            </a>
-
-            <a
-              href="#"
-              className="flex items-center gap-1.5 text-xs text-slate-300 hover:text-white transition-colors bg-white/5 border border-white/10 px-3 py-1.5 rounded-full hover:bg-white/10"
-            >
-              <GraduationCap className="h-3.5 w-3.5" />
-              <span>Mémoire de soutenance</span>
-            </a>
-
-            <a
               href="#simulation"
               className="relative inline-flex items-center justify-center p-0.5 overflow-hidden text-xs font-semibold rounded-full group bg-gradient-to-br from-brand-blue to-brand-teal hover:text-white dark:text-white focus:ring-2 focus:outline-none focus:ring-blue-800"
             >
@@ -114,22 +96,6 @@ export const Navbar: React.FC = () => {
                 </a>
               ))}
               <div className="border-t border-white/10 my-4 pt-4 flex flex-col gap-3">
-                <a
-                  href="https://github.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center justify-center gap-2 text-sm text-slate-300 hover:text-white transition-colors bg-white/5 border border-white/10 py-2 rounded-lg"
-                >
-                  <User className="h-4 w-4" />
-                  <span>Fondateur Vartia</span>
-                </a>
-                <a
-                  href="#"
-                  className="flex items-center justify-center gap-2 text-sm text-slate-300 hover:text-white transition-colors bg-white/5 border border-white/10 py-2 rounded-lg"
-                >
-                  <GraduationCap className="h-4 w-4" />
-                  <span>Mémoire de soutenance</span>
-                </a>
                 <a
                   href="#simulation"
                   onClick={() => setIsOpen(false)}

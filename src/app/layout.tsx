@@ -16,8 +16,8 @@ const outfit = Outfit({
 
 export const metadata: Metadata = {
   title: "VARTIA - Simulation de Port de Vêtements par Intelligence Artificielle",
-  description: "Projet innovant réalisé dans le cadre de l'ISEA 2026 pour révolutionner l'expérience de conception vestimentaire grâce à l'IA. Essayez vos tenues traditionnelles et modernes virtuellement.",
-  keywords: "VARTIA, ISEA 2026, Simulation de vêtement, Intelligence Artificielle, Mode africaine, Boubou, Wax, Agbada, Kente, Cotonou, Bénin",
+  description: "Projet innovant réalisé dans le cadre de l'EEIA 2026 pour révolutionner l'expérience de conception vestimentaire grâce à l'IA. Essayez vos tenues traditionnelles et modernes virtuellement.",
+  keywords: "VARTIA, EEIA 2026, Simulation de vêtement, Intelligence Artificielle, Mode africaine, Boubou, Wax, Agbada, Kente, Cotonou, Bénin",
 };
 
 export default function RootLayout({
